@@ -38,7 +38,7 @@ def get_trending_repositories(top_size, days):
     repos = requests.get(
         url='https://api.github.com/search/repositories',
         params={
-            'q': 'created:>2018-02-15'.format(start_date.strftime('%Y-%m-%d')),
+            'q': 'created:>{}'.format(start_date.strftime('%Y-%m-%d')),
             'sort': 'stars',
             'order': 'desc',
         }
