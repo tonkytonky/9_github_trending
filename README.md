@@ -11,8 +11,10 @@ To run the script you need Python 3.5 or higher to be installed.
 
 Example:
 ```bash
-$ python github_trendinf.py [-n NUMBER] [-d DAYS]
-issues: <number of open issues>, link: <link to repository>
+$ python github_trendinf.py -n 3 -d 7
+issues: 1, link: https://github.com/nswbmw/node-in-debugging
+issues: 7, link: https://github.com/wahyd4/work-in-australia
+issues: 4, link: https://github.com/llSourcell/Learn_Machine_Learning_in_3_Months
 ```
 `-n NUMBER` - number of repositories to get  
 `-d DAYS` - number of days for which to get repositories
